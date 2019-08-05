@@ -1,0 +1,19 @@
+[package]
+name = "sam3x8e"
+version = "0.1.0"
+authors = ["Shock-1 <harshal.sprasad.mec17@itbhu.ac.in>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bare-metal = "0.2.4"
+cortex-m = "0.6.0"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6.10"
+
+[features]
+rt = ["cortex-m-rt/device"]
