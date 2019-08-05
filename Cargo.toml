@@ -3,6 +3,11 @@ name = "sam3x8e"
 version = "0.1.0"
 authors = ["Shock-1 <harshal.sprasad.mec17@itbhu.ac.in>"]
 edition = "2018"
+repository = "https://github.com/Shock-1/sam3x8e"
+license = "MIT/Apache-2.0"
+keywords = ["sam3x", "sam3x8e", "no_std", "embedded", "svd2rust"]
+readme = "README.md"
+description =  "Device support crate for sam3x8e devices"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
