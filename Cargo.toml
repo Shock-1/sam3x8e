@@ -1,5 +1,5 @@
 [package]
-name = "sam3x8e"
+name = "alt-sam3x8e"
 version = "0.1.0"
 authors = ["Shock-1 <harshal.sprasad.mec17@itbhu.ac.in>"]
 edition = "2018"
